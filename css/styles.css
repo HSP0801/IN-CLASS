@@ -1,11 +1,12 @@
-/* Sujal patel 8909298*/
+/* Sujal patel 8909298 */
+
 html{
     font: normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
 }
 body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(88, 151, 154);
+    background-color: rgb(77, 166, 171);
     display: flex;
     flex-direction: column;
 }
@@ -18,7 +19,7 @@ h2{
     font-size: 2rem;
 }
 header{
-    background-color: hsl(99, 12%, 32%);
+    background-color: hsl(288, 21%, 49%);
 }
 nav ul li {
     display: inline;
@@ -45,11 +46,11 @@ section{
 }
 main{
     flex: 2 1 70%;
-    background-color: hsl(201, 56%, 68%);
+    background-color: hsl(191, 16%, 79%);
 }
 aside{
     flex: 1 1 30%;
-    background-color: hsl(192, 93%, 49%);
+    background-color: hsl(192, 92%, 71%);
 }
 aside li{
     list-style-type: square;
@@ -59,10 +60,10 @@ aside a{
     color: rgba(222, 8, 16, 0.7);
 }
 aside, a:hover{
-    color: #fc9;
+    color: rgb(46, 2, 2);
 }
 footer{
-    background-color: hsl(243, 72%, 51%);
+    background-color: hsl(0, 5%, 30%)
 }
 .structural{
     margin: .5rem;
@@ -75,7 +76,7 @@ footer{
 #para2{
     color: rgb(58, 32, 32)
 }
-select, option, label, legend, input[type=subm]{
+select, option, label, legend, input[type=submit]{
     font-size: 1.5em;
     font-weight: bold;
     font-variant: small-caps;
@@ -91,7 +92,7 @@ footer p{
     font-size: 0.75em;
 }
 form{
-    border: 0,1rem dashed darkblue;
+    border: .3em dashed black;
     padding: 0.25rem;
 }
 input[type=text], input[type=email], input[type=submit], select[type=select]{
